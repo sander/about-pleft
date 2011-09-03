@@ -1,0 +1,70 @@
+body {
+  background: #fff;
+  color: #202020;
+  width: 960px;
+  margin: 0 auto;
+  font: 13px Arial, sans-serif;
+}
+#left, #middle, #right {
+  width: 300px;
+  padding: 10px;
+  display: inline;
+  float: left;
+}
+#left {
+}
+#right {
+  float: right;
+}
+div > :first-child {
+  margin-top: 0;
+}
+h2 {
+  font-size: 13px;
+}
+* + h2 {
+  border-top: 1px solid #72da61;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+p, h2, li {
+  line-height: 16px;
+}
+ul {
+  padding-left: 20px;
+}
+#share {
+  height: 80px;
+  width: 310px;
+}
+#twitter, #linkedin, #buzz, #facebook {
+  float: left;
+}
+#twitter {
+  margin-bottom: 20px;
+}
+#linkedin {
+  margin-left: 20px;
+  padding-top: 8px;
+}
+#buzz {
+  margin-left: 10px;
+  margin-top: -1px;
+}
+#facebook {
+  margin-left: 10px;
+}
+a img {
+  border: none;
+}
+a {
+  color: #6679b1;
+  text-decoration: none;
+}
+#copyright {
+  clear: both;
+  font-size: 11px;
+  padding-top: 20px;
+  text-align: center;
+}
+
