@@ -37,22 +37,17 @@ ul {
   height: 80px;
   width: 310px;
 }
-#twitter, #linkedin, #buzz, #facebook {
+#twitter, #linkedin, #googleplus, #facebook {
   float: left;
 }
-#twitter {
-  margin-bottom: 20px;
+#twitter, #linkedin, #googleplus {
+  margin-right: 20px;
 }
-#linkedin {
-  margin-left: 20px;
-  padding-top: 8px;
-}
-#buzz {
-  margin-left: 10px;
-  margin-top: -1px;
+#googleplus {
+  margin-top: 2px;
 }
 #facebook {
-  margin-left: 10px;
+  margin-top: 1px;
 }
 a img {
   border: none;
