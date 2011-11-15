@@ -39,6 +39,7 @@ ul {
 }
 #twitter, #linkedin, #googleplus, #facebook {
   float: left;
+  width: 50px;
 }
 #twitter, #linkedin, #googleplus {
   margin-right: 20px;
@@ -63,3 +64,4 @@ a {
   text-align: center;
 }
 
+.clear { clear: both; }
